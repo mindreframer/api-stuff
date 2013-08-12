@@ -1,0 +1,43 @@
+<div id="main-container" class="row-fluid">
+  <div id="list-api-div" class="span5">
+    <div class="div-container">
+      <ul class="well nav nav-list">
+        <% if @has_missing_definitions || @has_obsolete_definitions %>
+          <li class="nav-header">Information</li>
+          <% if @has_missing_definitions %>
+            <%= render 'information_warning_li',
+              :text => 'Missing Definitions Detected',
+              :path => missing_definitions_routes_path
+            %>
+          <% end %>
+          <% if @has_obsolete_definitions %>
+            <%= render 'information_warning_li',
+              :text => 'Obsolete Definitions Detected',
+              :path => obsolete_definitions_routes_path
+            %>
+          <% end %>
+        <% end %>
+        <% @routes.each do |controller, routes| %>
+          <li class="nav-header"><%= controller %></li>
+          <% routes.each do |route| %>
+            <li>
+              <a href="<%= route_path(route[:id]) %>">
+                <div class="label-api label-api-full">
+                  <span class="label label-important"><%= route[:verb] %></span>
+                </div>
+                <strong><%= route[:path] %></strong>
+              </a>
+            </li>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+  <div id="show-api-div" class="span7">
+    <div class="div-container">
+      <div class="alert alert-block alert-info">
+        <h3>Select an API endpoint on the left to get started. :)</h3>
+      </div>
+    </div>
+  </div>
+</div>
