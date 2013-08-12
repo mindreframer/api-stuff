@@ -1,0 +1,1 @@
+require 'rapi_doc'

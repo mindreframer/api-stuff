@@ -1,0 +1,41 @@
+.resource_methods
+  %a{:id => "#{@resource_name}_method_#{@method_order}"}
+  %h2.api-name= @name
+  %h2.api-url.blue= "#{@method} #{@url}"
+  %p.description
+    %strong Description:
+    = @content  
+  - if @access
+    %strong Access:
+    = @access
+    %br/
+  - if @return
+    %strong Return:
+    = @return
+    %br/
+  - if @params
+    %strong Parameters:
+    %ul
+      - @params.each do |v|
+        %li= v
+  - unless @request_header.blank?
+    %strong Request Headers:
+    %pre= @request_header
+  - unless @request.blank?
+    %strong Request:
+    %pre= @request
+  - unless @response.blank?
+    %strong Response:
+    %pre= @response
+  - unless @outputs.empty?
+    %strong Response Output:
+    %ul.output_format
+      - @outputs.each do |output_format, output|
+        %li.output-format{:class => output_format}
+          %a{:href => "##{"#{@resource_name}_#{output_format}_#{@method_order}"}"}= output_format
+    .output
+      - @outputs.each do |output_format, output|
+        %div{:class => output_format}
+          %a{:id => "#{@resource_name}_#{output_format}_#{@method_order}"}
+          %pre.prettyprint= output
+    %br/
