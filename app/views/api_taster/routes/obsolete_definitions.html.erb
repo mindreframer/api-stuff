@@ -1,0 +1,12 @@
+<%= render 'breadcrumb',
+  :parent     => 'Information',
+  :current    => 'Obsolete Definitions Detected',
+  :label      => 'Warning',
+  :label_type => 'warning'
+%>
+
+<div class="alert alert-warning">
+  <p>The following route definitions are found within <code>ApiTaster.routes</code> but they are not defined in your routes. Please feel free to correct or remove them.</p>
+
+  <%= render 'route_definitions', :routes => @obsolete_definitions %>
+</div>
