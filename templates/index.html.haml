@@ -1,0 +1,46 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-Type"}/
+    %link{:href => "prettify.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "styles.css", :rel => "stylesheet", :type => "text/css"}/    
+    %title App Name - API doc
+  %body
+    #header.clearfix
+      %span#app-name.active
+        %a{:href => "#"} API Doc
+      %span#api-version= "Updated at: #{Time.now.utc}"
+
+    #wrapper.clearfix
+      #resource_index.blue
+        %form{:onsubmit => "return false;"}
+          .search-container
+            %input.search-input{:type => "text", :placeholder => "Search"}/
+        %h3 Resources
+        %ul#api-navigation
+          - resource_docs.each do |resource|
+            %li.resource-container
+              %span.resource-name-container
+                %a.resource-name{:href => "##{resource.name}"}= resource.name
+              - if resource.function_blocks.any?
+                %ul
+                  - resource.function_blocks.each do |method_block|
+                    %li
+                      %span.api-endpoint-container
+                        %a.api-endpoint{:href => "##{resource.name}_method_#{method_block.method_order}"}
+                          = method_block.name
+      #resources
+        - resource_docs.each do |resource|
+          %a{:id => "#{resource.name}"}
+          .resource
+            - if resource.resource_header
+              = resource.resource_header
+            - if resource.resource_methods
+              - resource.resource_methods.each do |method|
+                = method
+
+    %script{:src => "http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js", :type => "text/javascript"}
+    %script{:src => "http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js", :type => "text/javascript"}
+    %script{:src => "scripts.js", :type => "text/javascript"}
+    %script{:src => "prettify.js", :type => "text/javascript"}
+    %script{:src => "beautify.js", :type => "text/javascript"}

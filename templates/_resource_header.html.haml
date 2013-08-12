@@ -1,0 +1,17 @@
+.resource_header
+  %h2= @name
+  %p.resource_summary= @content
+  - if @xml || @json
+    %h3 Representations
+    - if @json
+      .json
+        %p
+          %strong JSON representation:
+        %p
+          %textarea= @json
+    - if @xml
+      .xml
+        %p
+          %strong XML representation:
+        %p
+          %textarea= @xml

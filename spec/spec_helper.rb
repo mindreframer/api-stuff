@@ -1,0 +1,5 @@
+require 'erb'
+require 'fileutils'
+require 'doc_util'
+require 'resource_doc'
+require 'rapi_config'
