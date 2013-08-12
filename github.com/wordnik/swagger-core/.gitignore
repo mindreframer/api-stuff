@@ -1,0 +1,10 @@
+build/
+lib/*.jar
+target
+samples/scala-play2/logs
+.idea
+.idea_modules
+.settings
+.project
+.classpath
+.cache
