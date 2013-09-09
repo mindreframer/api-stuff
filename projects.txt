@@ -8,3 +8,4 @@ https://github.com/wordnik/swaggersocket.git
 https://github.com/rainforestapp/grape-swagger.git
 https://github.com/coopernurse/barrister.git
 https://github.com/coopernurse/barrister-site.git
+https://github.com/coopernurse/barrister-ruby.git
