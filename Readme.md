@@ -9,6 +9,7 @@
 
 ## Barister RPC
   - http://barrister.bitmechanic.com/index.html
+  - https://github.com/coopernurse/barrister-site/tree/master/examples/redis-msgpack
 
 
 
