@@ -16,6 +16,7 @@
   MsgPack:
   - [MsgPack + Redis](https://groups.google.com/forum/#!topic/redis-db/59s1gAnClHA)
   - http://www.redisgreen.net/blog/2013/03/18/intro-to-lua-for-redis-programmers/
+  - http://evalsha.com/
 
 
 
