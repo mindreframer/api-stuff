@@ -1,0 +1,60 @@
+---
+layout: default
+title: Barrister RPC - JSON-RPC plus IDL
+---
+
+# JSON-RPC + IDL = Barrister RPC
+
+* Define your interface in a human readable IDL
+* Run `barrister` to convert IDL to JSON and produce [docco style HTML docs](http://jashkenas.github.com/docco/) for your interface
+* Write your server implementation
+* Consume it
+  
+### Overview
+
+Barrister is a RPC system that uses an external interface definition (IDL) file to describe the
+interfaces and data structures that a component implements.  It is similar to
+tools like Protocol Buffers, Thrift, Avro, and SOAP.
+
+Barrister emphasizes:
+
+* **Ease of use.**  You should be able to write a client and server in minutes.
+* **Interface as documentation.**  The interface definition should be human readable. The collection
+  of interfaces of a system's components can be an excellent way to understand the system.
+* **Being idiomatic.** Provide code generation for static languages which can enforce type safety 
+  at compile time.  Don't use code generation for dynamic languages.  Language bindings should
+  feel natural for developers of each language.
+* **Interoperability.**  You shouldn't have to worry about whether your Python client will work with
+  a Node.js server.  Barrister has a conformance suite that validates all supported language 
+  bindings enforce the IDL rules uniformly.
+
+RPC calls are encoded as [JSON-RPC 2.0](http://jsonrpc.org/specification) requests/responses.
+Consequently, any JSON-RPC 2.0 client should be able to consume a Barrister RPC service, but Barrister
+clients are preferred as they provide client side type validation and IDL discovery.
+
+### Example
+
+[[example-calc]]
+
+To convert `calc.idl` to JSON and HTML forms, run:
+
+    barrister -t "Calculator Interface" -d calc.html -j calc.json calc.idl
+    
+Or use the hosted translator (this will only output the JSON file, not the docs):
+
+    curl --data-urlencode idl@calc.idl http://barrister.bitmechanic.com/run > calc.json
+
+Output files:
+
+ * `calc.html` - [A human readable interface doc](calc.html)
+ * `calc.json` - [A computer readable JSON file](calc.json)
+
+----
+
+### Nifty, now what?
+
+ * [Download](download.html) Barrister and install it
+ * Peruse [more examples](examples.html) of Barrister 
+ * Try writing some IDL files to get comfortable with the syntax
+ * Join the [mailing list](https://groups.google.com/forum/#!forum/barrister-rpc)
+ * [Contribute](contribute.html) to the project by writing a [new language binding](binding.html), a blog article, or a demo app

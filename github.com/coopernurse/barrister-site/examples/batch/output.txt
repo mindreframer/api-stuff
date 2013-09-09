@@ -1,0 +1,7 @@
+hello
+err.code=99
+batch 0
+batch 1
+err.code=99
+batch 2
+batch 3

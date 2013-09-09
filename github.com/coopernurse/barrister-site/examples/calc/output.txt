@@ -1,0 +1,6 @@
+1+5.1=6.1
+8-1.1=6.9
+
+IDL metadata:
+barrister_version=0.1.5
+checksum=51a911b5eb0b61fbb9300221d8c37134

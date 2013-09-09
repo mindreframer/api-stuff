@@ -1,0 +1,9 @@
+
+interface Echo {
+  // if s == "err" then server should return 
+  // an error with code=99
+  //
+  // otherwise it should return s
+  echo(s string) string
+}
+
