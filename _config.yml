@@ -1,0 +1,3 @@
+pygments: true
+markdown: rdiscount
+exclude: [ cook_examples.py, cook_site_nikko.sh, java_war.py, webserver.py, index.md.tmpl, node_modules ]

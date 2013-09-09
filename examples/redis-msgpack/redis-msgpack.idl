@@ -1,0 +1,13 @@
+
+struct Contact {
+    contactId   string
+    username    string
+    firstName   string
+    lastName    string
+}
+
+interface ContactService {
+    put(c Contact) string
+    get(contactId string) Contact [optional]
+    remove(contactId string) bool
+}

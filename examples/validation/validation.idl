@@ -1,0 +1,50 @@
+enum PageCategory {
+    local
+    world
+    sports
+    business
+}
+
+struct Entity {
+    id           string
+    createdTime  int
+    updatedTime  int
+    version      int
+}
+
+struct Page extends Entity {
+    authorId        string
+    publishTime     int           [optional]
+    title           string
+    body            string
+    category        PageCategory
+    tags            []string      [optional]
+}
+
+interface ContentService {
+
+  // Adds a new page to the system.  Automatically updates createdTime and updatedTime.
+  // sets version to 1.
+  //
+  // returns the generated page id
+  addPage(authorId string, title string, body string, category PageCategory) string
+
+  // Raises error code 30 if page.version is out of date
+  // Raises error code 40 if no page exists with the given page.id
+  //
+  // otherwise it updates the page, increments the version, and returns the
+  // revised version number
+  updatePage(page Page) int
+  
+  // Deletes the page with the given id and version number
+  //
+  // returns false if no page exists with the id
+  //
+  // if page exists, raises error code 30 if version is out of date
+  // otherwise deletes page and returns true
+  deletePage(id string, version int) bool
+
+  // Returns null if page is not found
+  getPage(id string) Page [optional]
+
+}

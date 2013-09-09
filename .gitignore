@@ -1,0 +1,16 @@
+*~
+_site
+node_modules
+examples/*/java/target
+examples/*/*.html
+examples/*/*.json
+examples/validation/php/content.json
+examples.md
+examples/batch/java/src/main/java/example/BarristerMeta.java
+examples/batch/java/src/main/java/example/Echo.java
+examples/batch/java/src/main/java/example/EchoClient.java
+examples/batch/java/src/main/resources/example.json
+examples/calc/java/src/main/java/example/BarristerMeta.java
+examples/calc/java/src/main/java/example/Calculator.java
+examples/calc/java/src/main/java/example/CalculatorClient.java
+examples/calc/java/src/main/resources/example.json
