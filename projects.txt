@@ -9,3 +9,4 @@ https://github.com/rainforestapp/grape-swagger.git
 https://github.com/coopernurse/barrister.git
 https://github.com/coopernurse/barrister-site.git
 https://github.com/coopernurse/barrister-ruby.git
+https://github.com/nesquena/rabl.git
