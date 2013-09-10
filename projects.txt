@@ -1,3 +1,4 @@
+https://github.com/apotonick/roar.git
 https://github.com/coopernurse/barrister-ruby.git
 https://github.com/coopernurse/barrister-site.git
 https://github.com/coopernurse/barrister.git
@@ -11,4 +12,3 @@ https://github.com/wordnik/swagger-codegen.git
 https://github.com/wordnik/swagger-core.git
 https://github.com/wordnik/swagger-ui.git
 https://github.com/wordnik/swaggersocket.git
-https://github.com/apotonick/roar.git
