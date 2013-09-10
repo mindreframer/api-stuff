@@ -55,6 +55,10 @@
       An opinionated micro-framework for creating REST-like APIs in Ruby.
        873 commits, last change: 2013-09-04 12:28:08, 3,274 stars, 330 forks
 
+    jrhe/grape-active_model_serializers:
+      User active_model_serializers with Grape
+       57 commits, last change: 2013-09-09 07:54:43, 6 stars, 7 forks
+
     nesquena/rabl:
       General ruby templating with json, bson, xml, plist and msgpack support
        679 commits, last change: 2013-09-03 19:27:00, 2,393 stars, 231 forks
