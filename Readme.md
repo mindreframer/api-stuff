@@ -51,6 +51,10 @@
       A quick and easy way to visually test your Rails application's API.
        109 commits, last change: 2013-07-18 17:22:55, 556 stars, 52 forks
 
+    intridea/grape:
+      An opinionated micro-framework for creating REST-like APIs in Ruby.
+       873 commits, last change: 2013-09-04 12:28:08, 3,274 stars, 330 forks
+
     nesquena/rabl:
       General ruby templating with json, bson, xml, plist and msgpack support
        679 commits, last change: 2013-09-03 19:27:00, 2,393 stars, 231 forks
