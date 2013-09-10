@@ -83,6 +83,10 @@
       User active_model_serializers with Grape
        57 commits, last change: 2013-09-09 07:54:43, 6 stars, 7 forks
 
+    milkcocoa/grape-jbuilder:
+      Use Jbuilder with Grape
+       6 commits, last change: 2013-03-12 20:54:53, 3 stars, 0 forks
+
     nesquena/rabl:
       General ruby templating with json, bson, xml, plist and msgpack support
        679 commits, last change: 2013-09-03 19:27:00, 2,393 stars, 231 forks
