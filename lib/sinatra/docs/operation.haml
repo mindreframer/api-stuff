@@ -1,0 +1,52 @@
+%html
+  %head
+    %style{:type => 'text/css'}=css
+  %body
+    %ul.breadcrumb.well{:style=>'margin-bottom:0;'}
+      %li
+        %a{ :href => url('/docs') } Documentation
+        %span.divider='/'
+      %li
+        %a{ :href => url(collection.docs_url)}=collection.collection_name.to_s.split('_').map {|p| p.capitalize }.join(' ')
+        %span.divider='/'
+      %li.active=operation.operation_name.to_s.capitalize
+    .container
+      %h1.pull-right=operation.operation_name
+      %blockquote.clearfix
+        %p{ :style => 'width : 400px;font-size:90%;padding-top:1em'}
+          =operation.description
+
+      %h3 URL
+      %table.table.table-bordered
+        %tbody
+          %tr
+            %td{:style => 'width:50px;'}
+              %strong=operation.http_method.to_s.upcase
+            %td
+              %a{ :href=> url(operation.full_path) }=operation.full_path
+
+      %h3 Parameters
+      - if (operation.params + operation.features_params).empty?
+        .alert
+          This operation does not have any query parameters defined.
+      - else
+        %table.table.table-bordered
+          %thead
+            %tr.well
+              %th Name
+              %th Type
+              %th Valid values
+              %th Description
+          %tbody
+            - (operation.params + operation.features_params).each do |p|
+              %tr
+                %td
+                  %em=p.name
+                  ="<sup style='color:red;'>*</sup>" if p.required?
+                %td=p.klass.to_s.capitalize
+                %td=p.values
+                %td
+                  %small=p.description
+          %tfoot
+            %tr
+              %td{ :colspan => 4, :style => 'font-size:small;text-align:right;'}='<sup style="color:red;">*</sup> - required parameter'
