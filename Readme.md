@@ -1,6 +1,8 @@
 ## Grape + Swagger
   - http://artsy.github.io/blog/2013/06/21/adding-api-documentation-with-grape-swagger/
   - https://github.com/dblock/grape-on-rack.git
+  - http://code.dblock.org/evolving-apis-using-grape-api-versioning
+  - https://github.com/dblock/grape-on-rack-v1-inside-v2
 
 
 ## Rest Api Documentation:
