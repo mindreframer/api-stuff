@@ -1,0 +1,17 @@
+<%= simple_form_for(@meetup) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :title %>
+    <%= f.input :description, as: :text %>
+    <%= f.input :location_id, collection: Location.all, as: :select%>
+    <%= f.date_select :scheduled, default: Date.today + 30, label: 'Date' %>
+    <%= f.time_select :start_hour, default: Date.today + 1 , label: 'Heure de début' %>
+    <%= f.time_select :end_hour, default: Date.today + 4, label: 'Heure de fin'  %>
+
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

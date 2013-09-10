@@ -1,0 +1,39 @@
+<h1>Listing talks</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Proposed on</th>
+      <th>Meetup</th>
+      <th>User</th>
+      <th>Level</th>
+      <th>Duration</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @talks.each do |talk| %>
+    <tr>
+      <td><%= talk.title %></td>
+      <td><%= talk.description %></td>
+      <td><%= talk.proposed_on %></td>
+      <td><%= talk.meetup_id %></td>
+      <td><%= talk.user_id %></td>
+      <td><%= talk.level %></td>
+      <td><%= talk.duration %></td>
+      <td><%= link_to 'Show', talk %></td>
+      <td><%= link_to 'Edit', edit_talk_path(talk) %></td>
+      <td><%= link_to 'Destroy', talk, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br />
+
+<%= link_to 'New Talk', new_talk_path %>

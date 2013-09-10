@@ -1,0 +1,21 @@
+<%= simple_form_for(@talk) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :title %>
+    <%= f.input :description, as: :text %>
+    <%= f.input :proposed_on, as: :date, disabled: :true, default: Date.today  %>
+    <%= f.input :meetup_id, collection: Meetup.all, as: :select%>
+    <fieldset><legend>Niveau</legend>
+    <%= f.collection_radio_buttons :level, [[1, 'Débutant'] ,[5, 'Intermédiaire'],[10, 'Avancé']], :first, :last %>
+    </fieldset>
+    <fieldset><legend>Durée</legend>
+    <%= f.collection_radio_buttons :duration, [[5, '4 min super court'] ,[20, '20 mins un peu de temps'],[60, 'Une heure!?']], :first, :last %>
+    </fieldset>
+
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

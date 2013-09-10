@@ -1,0 +1,39 @@
+<h1>Listing meetups</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Location</th>
+      <th>Scheduled</th>
+      <th>Start hour</th>
+      <th>End hour</th>
+      <th>Meetup url</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @meetups.each do |meetup| %>
+    <tr>
+      <td><%= meetup.title %></td>
+      <td><%= meetup.description %></td>
+      <td><%= meetup.location_id %></td>
+      <td><%= meetup.scheduled %></td>
+      <td><%= meetup.start_hour %></td>
+      <td><%= meetup.end_hour %></td>
+      <td><%= meetup.meetup_url %></td>
+      <td><%= link_to 'Show', meetup %></td>
+      <td><%= link_to 'Edit', edit_meetup_path(meetup) %></td>
+      <td><%= link_to 'Destroy', meetup, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br />
+
+<%= link_to 'New Meetup', new_meetup_path %>
