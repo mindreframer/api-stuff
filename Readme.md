@@ -69,19 +69,23 @@
 
     elc/rapi_doc:
       Document Generator for Rails RESTful APIs
-       102 commits, last change: 2013-03-07 17:24:30, 54 stars, 25 forks
+       102 commits, last change: 2013-03-07 17:24:30, 52 stars, 23 forks
 
     fredwu/api_taster:
       A quick and easy way to visually test your Rails application's API.
-       109 commits, last change: 2013-07-18 17:22:55, 556 stars, 52 forks
+       109 commits, last change: 2013-07-18 17:22:55, 540 stars, 48 forks
 
     intridea/grape:
       An opinionated micro-framework for creating REST-like APIs in Ruby.
-       873 commits, last change: 2013-09-04 12:28:08, 3,274 stars, 330 forks
+       873 commits, last change: 2013-09-04 12:28:08, 3,276 stars, 330 forks
 
     jrhe/grape-active_model_serializers:
       User active_model_serializers with Grape
        57 commits, last change: 2013-09-09 07:54:43, 6 stars, 7 forks
+
+    mfojtik/sinatra-rabbit:
+      Sinatra based framework and DSL for building rock-solid REST applications (like API's)
+       103 commits, last change: 2013-03-04 09:08:24, 77 stars, 6 forks
 
     milkcocoa/grape-jbuilder:
       Use Jbuilder with Grape
@@ -89,7 +93,7 @@
 
     nesquena/rabl:
       General ruby templating with json, bson, xml, plist and msgpack support
-       679 commits, last change: 2013-09-03 19:27:00, 2,393 stars, 231 forks
+       679 commits, last change: 2013-09-03 19:27:00, 2,395 stars, 231 forks
 
     OriPekelman/paris-rb-grape-talk:
       paris-rb grape talk
@@ -97,7 +101,7 @@
 
     Pajk/apipie-rails:
       Rails API documentation tool
-       309 commits, last change: 2013-09-05 01:37:10, 250 stars, 73 forks
+       298 commits, last change: 2013-07-24 02:00:16, 217 stars, 60 forks
 
     rainforestapp/grape-swagger:
       Add swagger compliant documentation to your grape API
@@ -109,17 +113,17 @@
 
     wordnik/swagger-codegen:
       swagger-codegen contains a template-driven engine to generate client code in different languages by parsing your Swagger Resource Declaration.
-       682 commits, last change: 2013-09-07 10:15:28, 157 stars, 89 forks
+       637 commits, last change: 2013-08-11 15:36:16, 145 stars, 80 forks
 
     wordnik/swagger-core:
       Examples and server integrations for generating the Swagger API Specification, which enables easy access to your REST API
-       605 commits, last change: 2013-09-05 20:42:34, 1,245 stars, 316 forks
+       581 commits, last change: 2013-08-01 09:51:26, 1,177 stars, 288 forks
 
     wordnik/swagger-ui:
       Swagger UI is a dependency-free collection of HTML, Javascript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API.
-       260 commits, last change: 2013-09-05 20:03:31, 687 stars, 376 forks
+       214 commits, last change: 2013-07-30 11:49:44, 649 stars, 338 forks
 
     wordnik/swaggersocket:
       Swagger Socket: A REST over WebSocket
-       216 commits, last change: 2013-06-22 11:09:00, 110 stars, 10 forks
+       216 commits, last change: 2013-06-22 11:09:00, 109 stars, 10 forks
 <!-- PROJECTS_LIST_END -->
