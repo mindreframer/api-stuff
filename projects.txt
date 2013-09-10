@@ -5,6 +5,7 @@ https://github.com/coopernurse/barrister.git
 https://github.com/elc/rapi_doc.git
 https://github.com/fredwu/api_taster.git
 https://github.com/intridea/grape.git
+https://github.com/jrhe/grape-active_model_serializers.git
 https://github.com/nesquena/rabl.git
 https://github.com/Pajk/apipie-rails.git
 https://github.com/rainforestapp/grape-swagger.git
@@ -13,4 +14,3 @@ https://github.com/wordnik/swagger-codegen.git
 https://github.com/wordnik/swagger-core.git
 https://github.com/wordnik/swagger-ui.git
 https://github.com/wordnik/swaggersocket.git
-https://github.com/jrhe/grape-active_model_serializers.git
