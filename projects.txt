@@ -17,3 +17,4 @@ https://github.com/wordnik/swagger-codegen.git
 https://github.com/wordnik/swagger-core.git
 https://github.com/wordnik/swagger-ui.git
 https://github.com/wordnik/swaggersocket.git
+https://github.com/OriPekelman/paris-rb-grape-talk.git

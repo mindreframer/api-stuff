@@ -22,6 +22,7 @@
 
 ## Swagger:
   - [Scaling With Swagger](http://de.slideshare.net/fehguy/scaling-with-swagger-11728693)
+  - [](http://redcrackle.com/case_study/apihub)
 
 
 ## General Guidelines:
