@@ -56,6 +56,10 @@
       Add swagger compliant documentation to your grape API
        86 commits, last change: , 0 stars, 87 forks
 
+    tim-vandecasteele/grape-swagger:
+      Add swagger compliant documentation to your grape API
+       85 commits, last change: 2013-06-25 05:23:01, 133 stars, 87 forks
+
     wordnik/swagger-codegen:
       swagger-codegen contains a template-driven engine to generate client code in different languages by parsing your Swagger Resource Declaration.
        682 commits, last change: 2013-09-07 10:15:28, 157 stars, 89 forks
