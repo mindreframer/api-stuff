@@ -40,6 +40,10 @@
       Resource-oriented architectures in Ruby. Roar focuses on object-oriented REST documents.
        452 commits, last change: 2013-09-05 23:13:13, 750 stars, 62 forks
 
+    artsy/garner:
+      A set of Rack middleware and cache helpers that implement various caching strategies.
+       226 commits, last change: 2013-09-05 05:51:09, 139 stars, 9 forks
+
     coopernurse/barrister-ruby:
       Ruby bindings for Barrister RPC
        17 commits, last change: 2013-09-02 14:54:03, 3 stars, 0 forks
