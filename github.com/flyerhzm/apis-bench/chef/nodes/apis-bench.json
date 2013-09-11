@@ -1,0 +1,39 @@
+{
+  "mysql": {
+    "server_root_password": "api-bench",
+    "server_repl_password": "api-bench",
+    "server_debian_password": "api-bench"
+  },
+  "rvm": {
+    "user_installs": [{
+      "user": "deploy",
+      "default_ruby": "ruby-2.0.0-p0",
+      "global_gems": [
+        {"name": "god"}
+      ]
+    }],
+    "rvmrc": {
+      "rvm_project_rvmrc": 1,
+      "rvm_gemset_create_on_use_flag": 1,
+      "rvm_trust_rvmrcs_flag": 1,
+      "rvmsudo_secure_path": 1
+    }
+  },
+  "authorization": {
+    "sudo": {
+      "users": ["deploy", "flyerhzm"],
+      "passwordless": "true"
+    }
+  },
+  "run_list":[
+    "recipe[mysql::server]",
+    "recipe[mysql::client]",
+    "recipe[mysql::ruby]",
+    "recipe[database]",
+    "recipe[user]",
+    "recipe[sudo]",
+    "recipe[rvm::user]",
+    "recipe[runit]",
+    "recipe[main]"
+  ]
+}

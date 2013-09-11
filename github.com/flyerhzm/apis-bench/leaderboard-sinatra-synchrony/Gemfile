@@ -1,0 +1,34 @@
+source 'https://rubygems.org'
+
+gem 'oj'
+
+gem 'sinatra'
+gem 'sinatra-contrib'
+gem 'em-synchrony', require: ['em-synchrony', 'em-synchrony/mysql2', 'em-synchrony/activerecord']
+gem 'sinatra-synchrony', require: 'sinatra/synchrony'
+gem 'activerecord'
+
+gem 'mysql2'
+
+# To use ActiveModel has_secure_password
+# gem 'bcrypt-ruby', '~> 3.0.0'
+
+gem 'thin'
+
+gem 'require_all'
+
+# Deploy with Capistrano
+# gem 'capistrano'
+
+# To use debugger
+# gem 'debugger'
+
+gem 'faker', require: false
+
+group :test do
+  gem 'rspec'
+  gem 'factory_girl'
+  gem 'rack-test'
+  gem 'shoulda-matchers'
+  gem 'database_cleaner'
+end

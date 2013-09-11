@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'database'
+cookbook 'mysql'
+cookbook 'runit'
+cookbook 'rvm', github: 'fnichol/chef-rvm'
+cookbook 'sudo'
+cookbook 'user'
