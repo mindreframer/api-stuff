@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+echo $1
+echo $1 >> projects.txt
+git ciam $1
+ruby 00.pull.rb https://github.com/Gazler/rapidash.git
+cd .. && _sh/pull api
