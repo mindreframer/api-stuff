@@ -11,6 +11,7 @@ https://github.com/fredwu/api_taster.git
 https://github.com/intridea/grape.git
 https://github.com/jrhe/grape-active_model_serializers.git
 https://github.com/lanej/cistern.git
+https://github.com/lanej/zendesk2.git
 https://github.com/mfojtik/sinatra-rabbit.git
 https://github.com/milkcocoa/grape-jbuilder.git
 https://github.com/nesquena/rabl.git
@@ -22,4 +23,3 @@ https://github.com/wordnik/swagger-codegen.git
 https://github.com/wordnik/swagger-core.git
 https://github.com/wordnik/swagger-ui.git
 https://github.com/wordnik/swaggersocket.git
-https://github.com/lanej/zendesk2.git
