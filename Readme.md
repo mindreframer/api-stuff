@@ -87,6 +87,10 @@
       A quick and easy way to visually test your Rails application's API.
        109 commits, last change: 2013-07-18 17:22:55, 556 stars, 52 forks
 
+    gamache/hyperresource:
+      An HTTP hypermedia client library for Ruby.
+       36 commits, last change: 2013-07-31 13:36:49, 88 stars, 13 forks
+
     Gazler/rapidash:
       Rapidly develop your API client
        121 commits, last change: 2013-07-30 02:47:33, 137 stars, 11 forks
