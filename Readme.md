@@ -111,6 +111,10 @@
       Use Jbuilder with Grape
        6 commits, last change: 2013-03-12 20:54:53, 3 stars, 0 forks
 
+    mwunsch/gilt:
+      Ruby client for the Gilt public API (dev.gilt.com)
+       52 commits, last change: 2012-09-18 18:35:38, 12 stars, 0 forks
+
     mwunsch/weary:
       A framework and DSL for building RESTful web service clients
        435 commits, last change: 2013-05-03 12:31:16, 473 stars, 21 forks
