@@ -87,6 +87,10 @@
       A quick and easy way to visually test your Rails application's API.
        109 commits, last change: 2013-07-18 17:22:55, 556 stars, 52 forks
 
+    Gazler/rapidash:
+      Rapidly develop your API client
+       121 commits, last change: 2013-07-30 02:47:33, 137 stars, 11 forks
+
     intridea/grape:
       An opinionated micro-framework for creating REST-like APIs in Ruby.
        873 commits, last change: 2013-09-04 12:28:08, 3,274 stars, 330 forks
