@@ -97,6 +97,10 @@
       API client framework extracted from Fog
        46 commits, last change: 2013-07-28 22:32:44, 63 stars, 5 forks
 
+    lanej/zendesk2:
+      Zendesk API V2 client using Cistern
+       167 commits, last change: 2013-07-28 22:46:43, 8 stars, 9 forks
+
     mfojtik/sinatra-rabbit:
       Sinatra based framework and DSL for building rock-solid REST applications (like API's)
        103 commits, last change: 2013-03-04 09:08:24, 77 stars, 6 forks
