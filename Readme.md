@@ -12,6 +12,7 @@
 
 
 ## Ruby Rest APIs
+  - http://www.plugingeek.com/categories/api-create-ruby-api-clients-ruby
   - http://stackoverflow.com/questions/10289024/generate-and-publish-ruby-based-rest-apis-documentation
   [](http://www.youtube.com/watch?v=lTSl7IwbrvI&list=PLE7tQUdRKcybxgqVTwuOA12wr5Gn2M2Pp)
 
