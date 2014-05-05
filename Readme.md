@@ -49,117 +49,117 @@
 
     apotonick/roar:
       Resource-oriented architectures in Ruby. Roar focuses on object-oriented REST documents.
-       452 commits, last change: 2013-09-05 23:13:13, 750 stars, 62 forks
+       517 commits, last change: , 984 stars, 75 forks
 
     artsy/garner:
       A set of Rack middleware and cache helpers that implement various caching strategies.
-       226 commits, last change: 2013-09-05 05:51:09, 139 stars, 9 forks
+       237 commits, last change: , 204 stars, 14 forks
 
     coopernurse/barrister-ruby:
       Ruby bindings for Barrister RPC
-       17 commits, last change: 2013-09-02 14:54:03, 3 stars, 0 forks
+       17 commits, last change: , 4 stars, 1 forks
 
     coopernurse/barrister-site:
       Barrister web site contents (Jekyll)
-       48 commits, last change: 2013-09-02 11:37:01, 1 stars, 0 forks
+       49 commits, last change: , 1 stars, 0 forks
 
     coopernurse/barrister:
       clean contracts
-       126 commits, last change: 2013-09-02 14:49:44, 11 stars, 0 forks
+       130 commits, last change: , 14 stars, 1 forks
 
     dblock/grape-on-rack-v1-inside-v2:
       Demonstrate versioning fallback in Grape.
-       3 commits, last change: 2013-07-19 08:50:43, 0 stars, 0 forks
+       3 commits, last change: , 5 stars, 1 forks
 
     dblock/grape-on-rack:
       A demo Grape API mounted on RACK.
-       41 commits, last change: 2013-06-21 08:24:34, 59 stars, 16 forks
+       56 commits, last change: , 88 stars, 22 forks
 
     elc/rapi_doc:
       Document Generator for Rails RESTful APIs
-       102 commits, last change: 2013-03-07 17:24:30, 52 stars, 23 forks
+       102 commits, last change: , 61 stars, 27 forks
 
     flyerhzm/apis-bench:
 
-       106 commits, last change: , 25 stars, 3 forks
+       106 commits, last change: , 27 stars, 6 forks
 
     fredwu/api_taster:
       A quick and easy way to visually test your Rails application's API.
-       109 commits, last change: 2013-07-18 17:22:55, 540 stars, 48 forks
+       118 commits, last change: , 619 stars, 71 forks
 
     gamache/hyperresource:
-      An HTTP hypermedia client library for Ruby.
-       74 commits, last change: 2013-10-07 05:15:19, 89 stars, 14 forks
+      A self-inflating Ruby client for hypermedia APIs.
+       170 commits, last change: , 249 stars, 20 forks
 
     Gazler/rapidash:
       Rapidly develop your API client
-       121 commits, last change: 2013-07-30 02:47:33, 137 stars, 11 forks
+       121 commits, last change: , 141 stars, 13 forks
 
     intridea/grape:
       An opinionated micro-framework for creating REST-like APIs in Ruby.
-       873 commits, last change: 2013-09-04 12:28:08, 3,276 stars, 330 forks
+       1,053 commits, last change: , 4,318 stars, 472 forks
 
     jrhe/grape-active_model_serializers:
       User active_model_serializers with Grape
-       57 commits, last change: 2013-09-09 07:54:43, 6 stars, 7 forks
+       64 commits, last change: , 28 stars, 14 forks
 
     lanej/cistern:
       API client framework extracted from Fog
-       56 commits, last change: 2013-10-04 13:47:24, 64 stars, 7 forks
+       96 commits, last change: , 70 stars, 11 forks
 
     lanej/zendesk2:
       Zendesk API V2 client using Cistern
-       167 commits, last change: , 9 stars, 9 forks
+       201 commits, last change: , 10 stars, 9 forks
 
     mfojtik/sinatra-rabbit:
       Sinatra based framework and DSL for building rock-solid REST applications (like API's)
-       103 commits, last change: 2013-03-04 09:08:24, 77 stars, 6 forks
+       103 commits, last change: , 82 stars, 6 forks
 
     milkcocoa/grape-jbuilder:
       Use Jbuilder with Grape
-       6 commits, last change: 2013-03-12 20:54:53, 3 stars, 0 forks
+       26 commits, last change: , 11 stars, 2 forks
 
     mwunsch/gilt:
       Ruby client for the Gilt public API (dev.gilt.com)
-       52 commits, last change: 2012-09-18 18:35:38, 12 stars, 0 forks
+       52 commits, last change: , 13 stars, 1 forks
 
     mwunsch/weary:
       A framework and DSL for building RESTful web service clients
-       435 commits, last change: 2013-05-03 12:31:16, 475 stars, 21 forks
+       441 commits, last change: , 495 stars, 18 forks
 
     nesquena/rabl:
       General ruby templating with json, bson, xml, plist and msgpack support
-       679 commits, last change: 2013-09-03 19:27:00, 2,395 stars, 231 forks
+       741 commits, last change: , 2,725 stars, 266 forks
 
     OriPekelman/paris-rb-grape-talk:
       paris-rb grape talk
-       14 commits, last change: 2013-04-03 05:14:30, 1 stars, 0 forks
+       14 commits, last change: , 1 stars, 0 forks
 
     Pajk/apipie-rails:
       Rails API documentation tool
-       298 commits, last change: 2013-07-24 02:00:16, 217 stars, 60 forks
+       411 commits, last change: , 448 stars, 107 forks
 
     rainforestapp/grape-swagger:
       Add swagger compliant documentation to your grape API
-       86 commits, last change: , 0 stars, 87 forks
+       86 commits, last change: , 0 stars, 144 forks
 
     tim-vandecasteele/grape-swagger:
       Add swagger compliant documentation to your grape API
-       85 commits, last change: 2013-06-25 05:23:01, 133 stars, 87 forks
+       186 commits, last change: , 208 stars, 144 forks
 
     wordnik/swagger-codegen:
       swagger-codegen contains a template-driven engine to generate client code in different languages by parsing your Swagger Resource Declaration.
-       637 commits, last change: 2013-08-11 15:36:16, 145 stars, 80 forks
+       873 commits, last change: , 245 stars, 163 forks
 
     wordnik/swagger-core:
       Examples and server integrations for generating the Swagger API Specification, which enables easy access to your REST API
-       581 commits, last change: 2013-08-01 09:51:26, 1,177 stars, 288 forks
+       727 commits, last change: , 1,958 stars, 547 forks
 
     wordnik/swagger-ui:
       Swagger UI is a dependency-free collection of HTML, Javascript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API.
-       214 commits, last change: 2013-07-30 11:49:44, 649 stars, 338 forks
+       354 commits, last change: , 1,091 stars, 659 forks
 
     wordnik/swaggersocket:
       Swagger Socket: A REST over WebSocket
-       216 commits, last change: 2013-06-22 11:09:00, 109 stars, 10 forks
+       216 commits, last change: , 129 stars, 15 forks
 <!-- PROJECTS_LIST_END -->
